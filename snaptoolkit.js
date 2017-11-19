@@ -7,7 +7,7 @@ Snap.plugin( function( Snap, Element, Paper, global ) {
 
 	function stopEventDefaults( ev ) {
 		if ( ev.stopPropagation ) { ev.stopPropagation();     };
-                if ( ev.preventDefault )  { ev.preventDefault(event); };
+                if ( ev.preventDefault )  { ev.preventDefault(); };
                 ev.cancelBubble = true;
                 ev.returnValue = false;
 	};
